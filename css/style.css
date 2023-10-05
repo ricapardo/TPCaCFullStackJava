@@ -1,7 +1,92 @@
-*,
-.body{
+*{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
 background-image: url(../src/FLBackground.jpg);
 background-repeat: no-repeat;
 background-size: cover;
+}
 
+.navbar{
+    height: 110px;
+    margin-bottom: 5px;
+}
+
+.navbar-brand img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 25%;
+    width: 25%;
+}
+.container-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.login{
+    
+    width: 450px;
+    position: relative;
+    padding: 100p 30p;
+    backdrop-filter: blur(5px);
+    
+}
+.login h2{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+.login .input{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 40px;
+}
+.login .input .input1{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #FFF;
+    color: #FFF;
+    width: 90%;
+    height: 100%;
+}
+::placeholder{
+    color: #FFF;
+    font-size: 18px;
+}
+.login .input i{
+    position: relative;
+    right: -370px;
+    bottom: 27px;
+    color: #FFF;
+}
+.login .loginbtn{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.loginbtn{
+    width: 100%;
+    height: 40px;
+    background-color: crimson;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 7px;
+    color: #FFF;
+}
+button:active{
+    font-size: 25px;
 }
