@@ -8,7 +8,9 @@ background-image: url(../src/FLBackground.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 } */
-
+#section-1{
+    margin-bottom: 100px;
+}
 .navbar{
     height: 110px;
     margin-bottom: 5px;
@@ -114,6 +116,7 @@ button:active{
     --bgColor:rgb(255,252,241);
 }
 .slideCatch{
+    height: 100vh;
     overflow: hidden;
     background: var(--bgColor);
     font-family: sans-serif;
@@ -212,4 +215,6 @@ input[type="radio"]:checked{
     transform:translate3d(-60%, 0, -250px);
     box-shadow: 0 1px 4px rgba(0,0,0,0.4);
 }
+
+
 
