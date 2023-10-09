@@ -126,7 +126,7 @@ button:active{
     position: relative;
     width: 50%;
     height: 32vw;
-    margin: 80px auto;
+    margin: 3em auto 3em;
     transform-style: preserve-3d;
     font-family: "helvetica neue", sans-serif;
     perspective: 1400px;
