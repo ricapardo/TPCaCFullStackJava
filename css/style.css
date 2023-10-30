@@ -113,7 +113,12 @@ button:active{
     font-size: 25px;
 }
 :root{
-    --bgColor:rgb(255,252,241);
+    --bgColor:rgba(118, 229, 248, 0.062);
+}
+.home{
+   background-image: url("../src/fish-pattern.png");
+   background-repeat: repeat; 
+   
 }
 .slideCatch{
     height: 100vh;
