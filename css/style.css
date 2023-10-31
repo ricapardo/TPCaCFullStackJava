@@ -121,6 +121,8 @@ button:active{
    
 }
 .slideCatch{
+    display: flex;
+    align-items: center;
     height: 100vh;
     overflow: hidden;
     background: var(--bgColor);
@@ -131,7 +133,7 @@ button:active{
     position: relative;
     width: 50%;
     height: 32vw;
-    margin: 3em auto 3em;
+    margin: 3em 22% 3em;
     transform-style: preserve-3d;
     font-family: "helvetica neue", sans-serif;
     perspective: 1400px;
@@ -146,6 +148,7 @@ input[type="radio"]{
     transform: translateX(-83px);
     cursor: pointer;
     opacity: 0.4;
+    display:none;
 }
 input[type="radio"]:nth-child(5){
     margin-right: 0px;
